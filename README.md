@@ -31,7 +31,7 @@ print(data.result.body); // prints JSON data response.
 ```dart
 // prints time elapsed in milliseconds.
 print(data.result.inMilliseconds);
-//  Also has `.inSeconds` and `.inMinutes`
+// Also has ".inSeconds" and ".inMinutes"
 ```
 
 That's it! Implemented time elapsed for a future with only *1 line of code* -> `await elapsed(...)` .
