@@ -7,14 +7,14 @@
 </p>
 <hr>
 
-### What does this do?
+## What does this do?
 - This package is written as a simplified form of [`Stopwatch`](https://api.dart.dev/stable/2.10.5/dart-core/Stopwatch-class.html) class. *And probably better*.
 - Only contains one method which is `elapsed(...)` .
 - Only accepts a `Future<T>` that the library will automatically await and record the time elapsed.
 - Where `<T>` can be of any type including `<void>` .
 - The time elapsed will be returned alongside the actual result of the future.
 
-### **Normal** vs `package:elapsed`
+## **Normal** vs `package:elapsed`
 This is how you normally call an API with `http` package.
 ```dart
 var response = await http.get(...);
@@ -39,5 +39,5 @@ That's it! Implemented time elapsed for a future with only *1 line of code* -> `
 
 Checkout the [example](https://pub.dev/packages/elapsed/example) tab for more examples.
 
-### Disclaimer
+## Disclaimer
 This is not an alternative to [`time_elapsed`](https://pub.dev/packages/time_elapsed). This is a very different library.

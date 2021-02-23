@@ -10,7 +10,7 @@
 # Examples
 Pay attention to the `elapsed(...)` method calls below. That's the core of this library.
 
-### Basic
+## Basic
 - The `getSum(...)` function mocks `Future` with a delay of *2.5s*
 - The result of future is accessible in `.result` property. In this case, it's the sum of two numbers.
 - This example uses `.inSeconds` time property. Just as the name suggests, it represents the time elapsed in seconds.
@@ -32,7 +32,7 @@ Pay attention to the `elapsed(...)` method calls below. That's the core of this 
 
 <hr>
 
-### Future\<void\>
+## Future\<void\>
 - Both futures with return types and plain `void` is supported by this library.
 - This time the `Future` is mocked with 3 seconds delay.
 
@@ -53,7 +53,7 @@ Pay attention to the `elapsed(...)` method calls below. That's the core of this 
   
 <hr>
 
-### HTTP Request->Response
+## HTTP Request->Response
 - Of course, this works too!
 - This example will actually call an HTTP api resource.
 - Using [jsonplaceholder](https://jsonplaceholder.typicode.com).
