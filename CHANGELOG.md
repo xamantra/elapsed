@@ -1,3 +1,6 @@
+## 1.0.3
+- rearranged taglines.
+
 ## 1.0.2
 - patch readme and example directory.
 

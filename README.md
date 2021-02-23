@@ -8,11 +8,11 @@
 <hr>
 
 ### What does this do?
-- The library only contains one method which is `elapsed(...)` .
-- It accepts a `Future<T>` that the library will automatically await and record the time elapsed.
-- The time elapsed will be returned alongside the actual result of the future.
-- Where `<T>` can be of any type including `<void>` .
 - This package is written as a simplified form of [`Stopwatch`](https://api.dart.dev/stable/2.10.5/dart-core/Stopwatch-class.html) class. *And probably better*.
+- Only contains one method which is `elapsed(...)` .
+- Only accepts a `Future<T>` that the library will automatically await and record the time elapsed.
+- Where `<T>` can be of any type including `<void>` .
+- The time elapsed will be returned alongside the actual result of the future.
 
 ### **Normal** vs `package:elapsed`
 This is how you normally call an API with `http` package.
