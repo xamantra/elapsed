@@ -1,7 +1,5 @@
 ## 1.0.1
-- Added library logo.
-- Changed library description.
-- Setup CI.
+- Added documentation.
 
 ## 1.0.0
 
