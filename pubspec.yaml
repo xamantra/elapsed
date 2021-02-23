@@ -1,6 +1,6 @@
 name: elapsed
-description: A starting point for Dart libraries or applications.
-# version: 1.0.0
+description: A helper method to get time elapsed for any Future or asychronous function in a single line of code.
+version: 1.0.0
 # homepage: https://www.example.com
 
 environment:
@@ -12,3 +12,4 @@ environment:
 dev_dependencies:
   pedantic: ^1.9.0
   test: ^1.14.4
+  http: ^0.12.2

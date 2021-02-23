@@ -1,8 +1,4 @@
-/// Support for doing something awesome.
-///
-/// More dartdocs go here.
+/// A helper method to get time elapsed for any Future or asychronous function in a single line of code.
 library elapsed;
 
-export 'src/elapsed_base.dart';
-
-// TODO: Export any libraries intended for clients of this package.
+export 'src/elapsed_base.dart' show elapsed;
