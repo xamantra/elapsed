@@ -12,7 +12,8 @@ class _Elapsed<T> {
 
   /// The time it took for the future to complete.
   /// In `seconds`.
-  double get inSeconds => double.parse((inMilliseconds / 1000).toStringAsFixed(2));
+  double get inSeconds =>
+      double.parse((inMilliseconds / 1000).toStringAsFixed(2));
 
   /// The time it took for the future to complete.
   /// In `minutes`.
