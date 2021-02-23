@@ -38,3 +38,6 @@ That's it! Implemented time elapsed for a future with only *1 line of code* -> `
 
 
 Checkout the [example](https://pub.dev/packages/elapsed/example) tab for more examples.
+
+### Disclaimer
+This is not an alternative to [`time_elapsed`](https://pub.dev/packages/time_elapsed). This is a very different library.
