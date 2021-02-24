@@ -1,3 +1,7 @@
+## 1.0.6
+
+- improved readme.
+
 ## 1.0.5
 - reformatted docs.
 

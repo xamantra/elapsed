@@ -1,6 +1,6 @@
 name: elapsed
 description: Get time elapsed for asynchronous function in a single line of code.
-version: 1.0.5
+version: 1.0.6
 homepage: https://github.com/xamantra/elapsed
 
 environment:
