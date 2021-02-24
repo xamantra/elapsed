@@ -7,12 +7,14 @@
 </p>
 <hr>
 
+
 ## What does this do?
 - This package is written as a simplified form of [`Stopwatch`](https://api.dart.dev/stable/2.10.5/dart-core/Stopwatch-class.html) class. *And probably better*.
 - Only contains one method which is `elapsed(...)` .
 - Only accepts a `Future<T>` that the library will automatically await and record the time elapsed.
 - Where `<T>` can be of any type including `<void>` .
 - The time elapsed will be returned alongside the actual result of the future.
+
 
 ## **Normal** vs `package:elapsed`
 This is how you normally call an API with `http` package.
@@ -25,19 +27,36 @@ But with this library, you can do this:
 ```dart
 var data = await elapsed(http.get(...));
 print(data.result.body); // prints JSON data response.
-```
-
-^ These two different codes produce the same output. The difference is that you can do this with `elapsed`:
-```dart
-// prints time elapsed in milliseconds.
-print(data.result.inMilliseconds);
+print(data.result.inMilliseconds); // prints time elapsed in milliseconds.
 // Also has ".inSeconds" and ".inMinutes"
 ```
 
-That's it! Implemented time elapsed for a future with only *1 line of code* -> `await elapsed(...)` .
+
+## Comparison
+**package:elapsed**
+
+<img src="https://i.imgur.com/WWoVOdz.png" width="420" alt="package:elapsed">
+<hr>
+
+**Stopwatch** class
+
+<img src="https://i.imgur.com/5bxRm5t.png" width="420" alt="manual implementation">
+<hr>
+
+**manual implementation**
+
+<img src="https://i.imgur.com/DH6AVCq.png" width="420" alt="manual implementation">
+<hr>
+
+
+## Types
+Of course. Types are supported. Like this:
+
+<img src="https://i.imgur.com/7ARx37C.png" width="420" alt="typed">
 
 
 Checkout the [example](https://pub.dev/packages/elapsed/example) tab for more examples.
+
 
 ## Disclaimer
 This is not an alternative to [`time_elapsed`](https://pub.dev/packages/time_elapsed). This is a very different library.
