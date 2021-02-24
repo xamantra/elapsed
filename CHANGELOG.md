@@ -1,3 +1,9 @@
+## 1.0.7
+
+- resized images in readme
+- removed some links in readme.
+- reformat readme.
+
 ## 1.0.6
 
 - improved readme.
