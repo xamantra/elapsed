@@ -14,7 +14,7 @@
 - Only accepts a `Future<T>` that the library will automatically await and record the time elapsed.
 - Where `<T>` can be of any type including `<void>` .
 - The time elapsed will be returned alongside the actual result of the future.
-
+<hr>
 
 ## **Normal** vs `package:elapsed`
 This is how you normally call an API with `http` package.
@@ -30,33 +30,32 @@ print(data.result.body); // prints JSON data response.
 print(data.result.inMilliseconds); // prints time elapsed in milliseconds.
 // Also has ".inSeconds" and ".inMinutes"
 ```
-
+<hr>
 
 ## Comparison
 **package:elapsed**
 
-<img src="https://i.imgur.com/WWoVOdz.png" width="420" alt="package:elapsed">
+<img src="https://i.imgur.com/WWoVOdz.png" width="520" alt="package:elapsed">
 <hr>
 
 **Stopwatch** class
 
-<img src="https://i.imgur.com/5bxRm5t.png" width="420" alt="manual implementation">
+<img src="https://i.imgur.com/5bxRm5t.png" width="520" alt="manual implementation">
 <hr>
 
 **manual implementation**
 
-<img src="https://i.imgur.com/DH6AVCq.png" width="420" alt="manual implementation">
+<img src="https://i.imgur.com/DH6AVCq.png" width="520" alt="manual implementation">
 <hr>
 
 
 ## Types
 Of course. Types are supported. Like this:
 
-<img src="https://i.imgur.com/7ARx37C.png" width="420" alt="typed">
-
-
-Checkout the [example](https://pub.dev/packages/elapsed/example) tab for more examples.
-
+<img src="https://i.imgur.com/7ARx37C.png" width="520" alt="typed">
+<hr>
 
 ## Disclaimer
 This is not an alternative to [`time_elapsed`](https://pub.dev/packages/time_elapsed). This is a very different library.
+
+<hr>
