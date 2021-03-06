@@ -1,3 +1,8 @@
+## 1.2.0
+
+- Null-safety.
+- Dart `2.12.0`.
+
 ## 1.0.7
 
 - resized images in readme

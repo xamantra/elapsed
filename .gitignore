@@ -12,3 +12,4 @@ build/
 # Directory created by dartdoc
 doc/api/
 *.ignore.*
+test/.test_coverage.dart

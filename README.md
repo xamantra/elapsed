@@ -55,6 +55,16 @@ Of course. Types are supported. Like this:
 <img src="https://i.imgur.com/7ARx37C.png" width="520" alt="typed">
 <hr>
 
+## Null-safety
+```yaml
+dependencies:
+  # ...
+  elapsed: ^1.2.0 # use this version for null-safety. Requires dart 2.12.0 or Flutter 2.0.0 for flutter.
+  # OR
+  elapsed: 1.0.7 # no null-safety. can be used in older version of dart and flutter.
+  # ...
+```
+
 ## Disclaimer
 This is not an alternative to [`time_elapsed`](https://pub.dev/packages/time_elapsed). This is a very different library.
 
