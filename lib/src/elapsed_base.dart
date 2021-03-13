@@ -1,5 +1,6 @@
-class _Elapsed<T> {
-  _Elapsed(this.result, this.inMilliseconds);
+/// Wraps the `elapsed(...)` method's result along with the time elapsed value.
+class Elapsed<T> {
+  Elapsed(this.result, this.inMilliseconds);
 
   /// The actual result of the `Future`.
   /// If the `Future` doesn't return a value,
@@ -35,9 +36,9 @@ class _Elapsed<T> {
 /// var data = await http.get('http://...');
 /// print(data.statusCode);
 /// ```
-Future<_Elapsed<T>> elapsed<T>(Future<T> future) async {
+Future<Elapsed<T>> elapsed<T>(Future<T> future) async {
   var started = DateTime.now().millisecondsSinceEpoch;
   var result = await future;
   var finished = DateTime.now().millisecondsSinceEpoch;
-  return _Elapsed(result, finished - started);
+  return Elapsed(result, finished - started);
 }

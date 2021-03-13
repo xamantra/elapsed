@@ -27,7 +27,7 @@ But with this library, you can do this:
 ```dart
 var data = await elapsed(http.get(...));
 print(data.result.body); // prints JSON data response.
-print(data.result.inMilliseconds); // prints time elapsed in milliseconds.
+print(data.inMilliseconds); // prints time elapsed in milliseconds.
 // Also has ".inSeconds" and ".inMinutes"
 ```
 <hr>

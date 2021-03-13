@@ -1,3 +1,8 @@
+## 1.2.1
+
+- Exposed the `Elapsed` class publicly.
+- Fixed a sample code in the readme.
+
 ## 1.2.0
 
 - Null-safety.
